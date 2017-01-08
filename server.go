@@ -5,7 +5,7 @@ import (
     "net/http"
     "os" 
 )
-
+// This exists
 func handler(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "You just browsed page (if blank you're at the root): %s", r.URL.Path[1:])
 }
